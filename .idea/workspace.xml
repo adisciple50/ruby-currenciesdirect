@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f70faa-b783-464f-9d12-301894120669" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/lib/ruby/currenciesdirect.rb" afterPath="$PROJECT_DIR$/lib/currenciesdirect/currenciesdirect.rb" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/lib/ruby/currenciesdirect/version.rb" afterPath="$PROJECT_DIR$/lib/currenciesdirect/currenciesdirect/version.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ruby-currenciesdirect.iml" afterPath="$PROJECT_DIR$/.idea/ruby-currenciesdirect.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/console" afterPath="$PROJECT_DIR$/bin/console" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ruby-currenciesdirect.gemspec" afterPath="$PROJECT_DIR$/ruby-currenciesdirect.gemspec" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,8 +48,8 @@
       <file leaf-file-name="currenciesdirect.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/currenciesdirect/currenciesdirect.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="408">
+              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -170,12 +161,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635780333689</updated>
-      <workItem from="1635780338842" duration="11290000" />
+      <workItem from="1635780338842" duration="11335000" />
     </task>
+    <task id="LOCAL-00001" summary="refactored to remove ruby from the name">
+      <created>1635796262421</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635796262421</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11290000" />
+    <option name="totallyTimeSpent" value="11335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
@@ -206,6 +205,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactored to remove ruby from the name" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored to remove ruby from the name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -262,8 +265,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/currenciesdirect/currenciesdirect.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="408">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding />
         </state>
       </provider>
