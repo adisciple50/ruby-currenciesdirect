@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+#!/usr/bin/env currenciesdirect
 
 require "bundler/setup"
 require "ruby/currenciesdirect"

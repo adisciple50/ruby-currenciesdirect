@@ -1,4 +1,6 @@
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in ruby-currenciesdirect.gemspec
+# Specify your gem's dependencies in currenciesdirect-currenciesdirect.gemspec
 gemspec
+
+gem 'httparty'

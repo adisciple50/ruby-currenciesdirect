@@ -1,6 +1,6 @@
 ---
 sudo: false
-language: ruby
+language: currenciesdirect
 cache: bundler
 rvm:
   - 2.6.3

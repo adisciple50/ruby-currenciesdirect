@@ -1,23 +1,21 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "ruby/currenciesdirect/version"
+require "currenciesdirect/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "ruby-currenciesdirect"
-  spec.version       = Ruby::Currenciesdirect::VERSION
+  spec.name          = "currenciesdirect-currenciesdirect"
+  spec.version       = Currenciesdirect::Currenciesdirect::VERSION
   spec.authors       = ["Jason Crockett"]
   spec.email         = ["JesusisLord33333@outlook.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "An api wrapper for currenciesdirect - the travel money company"
+  spec.homepage      = "https://github.com/adisciple50/currenciesdirect-currenciesdirect"
   spec.license       = "MIT"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/adisciple50/currenciesdirect-currenciesdirect"
+  # spec.metadata["changelog_uri"] = "https://github.com/adisciple50/ruby-currenciesdirect"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
